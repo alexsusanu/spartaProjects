@@ -77,3 +77,8 @@
 [WARN] 2021-12-03 19:17:04,690 main Logging - Invalid input for seed. Try again: (q to exit) > 
 [FATAL] 2021-12-03 19:17:10,118 main Logging - NOT IMPLEMENTED
 [FATAL] 2021-12-03 19:19:18,955 main Logging - NOT IMPLEMENTED
+[FATAL] 2021-12-03 20:18:56,411 main Logging - NOT IMPLEMENTED
+[WARN] 2021-12-03 20:21:49,689 main Logging - Invalid input for seed. Try again: (q to exit) > 
+[WARN] 2021-12-03 20:21:53,727 main Logging - Invalid input for seed. Try again: (q to exit) > 
+[WARN] 2021-12-03 20:22:01,918 main Logging - Unknown option. Choice: bubble or quick (q to exit) > 
+[WARN] 2021-12-03 20:22:03,950 main Logging - Unknown option. Choice: bubble or quick (q to exit) > 
