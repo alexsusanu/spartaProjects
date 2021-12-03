@@ -2,13 +2,13 @@
 
 
 
+
+
 ![logo](images/logoJ.png)
 
 
 
 <h1 align="center">Sorting algorithms @ Sparta</h1>
-
-
 
 <p align="center">
   <a href="#java-features">Java Features Used</a> •
@@ -18,11 +18,7 @@
   <a href="#contact">Contact</a> 
 </p>
 
-
-
-![screenshot](screencasts/bubbleSort.gif)
-
-
+---
 
 ## Java Features Used
 
@@ -32,9 +28,17 @@
 
 //TODO
 
+![screenshot](screencasts/bubbleSort.gif)
+
+
+
 ![screenshot](screencasts/quickSort.gif)
 
+
+
 ![screenshot](screencasts/errorMessages.gif)
+
+
 
 ## Directory structure
 
