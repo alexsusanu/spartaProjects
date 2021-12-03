@@ -2,7 +2,7 @@
 
 
 
-<h1 style="text-align: center">Sorting algorithms @ Sparta</h1>
+<h1 align="center">Sorting algorithms @ Sparta</h1>
 
 
 
