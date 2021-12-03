@@ -13,7 +13,7 @@
 </p>
 
 
-![screenshot](screencasts/bubbleSort.mov)
+![screenshot](screencasts/bubbleSort.gif)
 
 ## Java Features Used
 
@@ -23,7 +23,7 @@
 
 //TODO
 
-![screenshot](screencasts/quickSort.mov)
+![screenshot](screencasts/quickSort.gif)
 
 ![screenshot](screencasts/errorMessages.gif)
 
