@@ -13,7 +13,7 @@
 </p>
 
 
-![screenshot](screencasts/bubbleSort.gif)
+![screenshot](screencasts/bubbleSort.mov)
 
 ## Java Features Used
 
@@ -22,6 +22,10 @@
 ## Description
 
 //TODO
+
+![screenshot](screencasts/quickSort.mov)
+
+![screenshot](screencasts/errorMessages.gif)
 
 ## Directory structure
 
