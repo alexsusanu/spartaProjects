@@ -2,7 +2,9 @@
 
 
 
-## 					Sorting algorithms @ Sparta
+<h1 style="text-align: center">Sorting algorithms @ Sparta</h1>
+
+
 
 <p align="center">
   <a href="#java-features">Java Features Used</a> •
