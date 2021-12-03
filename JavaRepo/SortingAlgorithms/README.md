@@ -1,10 +1,10 @@
-<h1 align="center">
-  <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
-  <br>
-  Sorting Algorithms @ Sparta
-  <br>
-</h1>
+![logo](images/logo.png)
+
+
+
+<p style="text-align: center; font-size: 150%">Sorting Algorithms @ Sparta </p>
+
+
 
 <p align="center">
   <a href="#java-features">Java Features Used</a> •
@@ -19,34 +19,13 @@
 
 ## Java Features Used
 
-- 
+- //TODO
 
 ## Description
 
+//TODO
 
-
-
-
-## Description
-
-
-
-## Credits
-
-![Eng100](images/eng100-@sparta.svg)
-
-## License
-
-Free
-
-## Contact
-
-> [alexsusanu.com](https://www.alexsusanu.com) &nbsp;&middot;&nbsp;
-> GitHub [@alexsusanu](https://github.com/alexsusanu) &nbsp;&middot;&nbsp;
-
-
-
-
+## Directory structure
 
 ```bash
 .
@@ -126,7 +105,22 @@ Free
                 └── sortingalgos
                     ├── BubbleSortTest.class
                     └── QuickSortTest.class
-
-
 ```
+
+
+
+## Credits
+
+![Eng100](images/eng100-@sparta.svg)
+
+## License
+
+Free
+
+## Contact
+
+> [alexsusanu.com](https://www.alexsusanu.com) &nbsp;&middot;&nbsp;
+> GitHub [@alexsusanu](https://github.com/alexsusanu) &nbsp;&middot;&nbsp;
+
+
 
