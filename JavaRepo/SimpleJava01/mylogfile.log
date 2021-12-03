@@ -56,9 +56,9 @@
 [WARN] 2021-12-02 09:32:14,422 main Sorting algorithms - Invalid input for seed. Try again: (q to exit)
 [WARN] 2021-12-02 09:32:15,502 main Sorting algorithms - Invalid input for seed. Try again: (q to exit)
 [INFO] 2021-12-02 15:15:27,428 main Sorting algorithms - Exiting
-[WARN] 2021-12-03 06:14:48,903 main com.sparta.sortingalgos.utils.Logging - Invalid input for seed. Try again: (q to exit)
-[WARN] 2021-12-03 06:14:54,528 main com.sparta.sortingalgos.utils.Logging - Invalid input for seed. Try again: (q to exit)
-[WARN] 2021-12-03 06:14:59,972 main com.sparta.sortingalgos.utils.Logging - Unknown option. Choice: bubble or quick (q to exit)
+[WARN] 2021-12-03 06:14:48,903 main Logging - Invalid input for seed. Try again: (q to exit)
+[WARN] 2021-12-03 06:14:54,528 main Logging - Invalid input for seed. Try again: (q to exit)
+[WARN] 2021-12-03 06:14:59,972 main Logging - Unknown option. Choice: bubble or quick (q to exit)
 [WARN] 2021-12-03 06:17:33,279 main Logging - Invalid input for seed. Try again: (q to exit)
 [WARN] 2021-12-03 06:17:39,377 main Logging - Unknown option. Choice: bubble or quick (q to exit)
 [WARN] 2021-12-03 06:20:05,597 main Logging - Invalid input for seed. Try again: (q to exit)

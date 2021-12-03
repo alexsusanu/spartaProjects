@@ -15,6 +15,7 @@ public class Logging {
     /**
      * Default messages for errors or algorithm choice
      */
+    public static final String notImplementedWarning = "NOT IMPLEMENTED";
     public static final String unknownOption = "Unknown option. Choice: bubble or quick (q to exit) > ";
     public static final String invalidInput = "Invalid input";
     public static final String invalidInputTryAgain = "Invalid input for seed. Try again: (q to exit) > ";

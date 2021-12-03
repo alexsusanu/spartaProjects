@@ -1,5 +1,6 @@
-package com.sparta.sortingalgos.model;
+package com.sparta.sortingalgos;
 
+import com.sparta.sortingalgos.model.QuickSort;
 import com.sparta.sortingalgos.utils.RandomGenerator;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -14,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class QuickSortTest {
-    private QuickSort quickSort; 
+    private QuickSort quickSort;
     private RandomGenerator randomGenerator;
     int[] myArray, myArrayEmpty;
     int[] getMyArrayWithDuplicates = {4,1,5,1,6,3,0,4,1,2,9,8,9};

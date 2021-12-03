@@ -1,5 +1,6 @@
-package com.sparta.sortingalgos.model;
+package com.sparta.sortingalgos;
 
+import com.sparta.sortingalgos.model.BubbleSort;
 import com.sparta.sortingalgos.utils.RandomGenerator;
 import org.junit.jupiter.api.*;
 
@@ -49,7 +50,7 @@ public class BubbleSortTest {
     }
 
     @DisplayName("Testing for random generated array")
-    @Test
+    @org.junit.Test
     public void testForRandomUsingJavaBuiltIn(){
         int[] m = myArray;
         bubbleSort.sortingFn(myArray);

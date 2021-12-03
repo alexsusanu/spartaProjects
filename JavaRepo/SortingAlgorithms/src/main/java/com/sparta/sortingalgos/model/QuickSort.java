@@ -4,6 +4,8 @@ import com.sparta.sortingalgos.utils.Logging;
 
 import java.util.List;
 
+import static com.sparta.sortingalgos.utils.Logging.notImplementedWarning;
+
 /**
  * Quick sort algorithm
  */
@@ -49,5 +51,6 @@ public class QuickSort<T extends Comparable<T>> implements ISorting<T>{
     @Override
     public void sortingFn(List<T> arr) {
         //TODO
+        Logging.logger.fatal(notImplementedWarning);
     }
 }
