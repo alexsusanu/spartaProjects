@@ -14,7 +14,9 @@ public class QuickSort<T extends Comparable<T>> implements ISorting<T>{
     // takes primitive array as parameter
     @Override
     public void sortingFn(int[] arr) {
-        sortingQ(arr, 0, arr.length-1);
+        if(arr != null) {
+            sortingQ(arr, 0, arr.length - 1);
+        }
     }
 
     // primitive int array helper method

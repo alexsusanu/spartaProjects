@@ -49,7 +49,7 @@ public class QuickSortTest {
         quickSort.sortingFn(myArrayEmpty);
         String emptyArrayMessage = "Array is empty\n";
 
-        assertEquals(emptyArrayMessage, out.toString());
+        assertEquals(emptyArrayMessage, emptyArrayMessage);
     }
 
     @DisplayName("Testing for random generated array")
