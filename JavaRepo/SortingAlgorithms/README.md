@@ -1,3 +1,7 @@
+
+
+
+
 ![logo](images/logoJ.png)
 
 
@@ -15,7 +19,10 @@
 </p>
 
 
+
 ![screenshot](screencasts/bubbleSort.gif)
+
+
 
 ## Java Features Used
 
