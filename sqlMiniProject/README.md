@@ -1,3 +1,4 @@
 
 
-<h1 style="text-align:center">SQL Queries</h1>
+<h1 align="center"><span style="color:purple">SQL Queries</span></h1>
+

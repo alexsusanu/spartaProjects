@@ -1,6 +1,6 @@
 
 
-<h1 style="text-align:center">MARKDOWN exercises</h1>
+<h1 align="center"><span style="color:purple">Markdown Exercises</span></h1>
 
 ## Heading 2
 ### Heading 3

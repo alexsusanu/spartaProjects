@@ -1,6 +1,6 @@
 
 
-<h1 style="text-align:center">Sparta Projects<br><sub style="font-size:small">overview readme</sub></br></h1>
+<h1 align="center">Sparta Projects<br><sub style="font-size:small">overview readme</sub></br></h1>
 
 
 
