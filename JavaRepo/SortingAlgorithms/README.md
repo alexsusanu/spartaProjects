@@ -6,7 +6,7 @@
 
 
 
-<h1 align="center"><img src="src/main/resources/images/made-with-java.svg" alt="logo" align="center"><span style="color:purple">Sorting algorithms</span> <span style="color:red">@</span><span style="color:blue"> Sparta</span></h1>
+<h1 align="center"><img src="src/main/resources/images/made-with-java.svg" alt="logo" align="center"><br></br><span style="color:purple">Sorting algorithms</span> <span style="color:red">@</span><span style="color:blue"> Sparta</span></h1>
 
 
 
