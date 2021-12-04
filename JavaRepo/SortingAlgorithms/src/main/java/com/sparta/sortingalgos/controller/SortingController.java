@@ -46,6 +46,11 @@ public class SortingController {
                      */
                     System.out.println(sortingView.display(arrayList, BeforeAfter.Before));
                     helper(arrayList, sortingView, SortingType.Bubble, timing);
+                    /*
+                     * Display and run bubble algo for array list with Collection
+                     */
+                    System.out.println(sortingView.display(arrayList, BeforeAfter.Before));
+                    collectionSortHelper(arrayList, sortingView, timing);
 
                 }catch (NullPointerException e){
                     Logging.logger.warn(invalidInput);
@@ -159,7 +164,7 @@ public class SortingController {
 
         System.out.println();
         System.out.println(sortingView.display(arr, BeforeAfter.After));
-        System.out.print("Total time taken using primitive array with builtin sort method (Arrays.sort): ");
+        System.out.print("Total time taken using list with Collections.sort(): ");
         sortingView.displayTime(timing.timeResult(start, end));
         System.out.println();
     }
