@@ -4,7 +4,7 @@
 
 
 
-<img src="images/logoJ.png" alt="logo" width="700"/>>>
+<img src="images/logoJ.png" alt="logo" width="700"/>
 
 
 
@@ -29,6 +29,8 @@ Below the project requirements:
 
 
 
+
+
 >Bubble Sort Project
 >
 >Purpose: To give you a chance to create some classes, write an algorithm and do some testing.
@@ -38,6 +40,10 @@ Below the project requirements:
 >Use at least 2 classes in your implementation (one to drive everything, one to do the sorting). 
 >
 >Write unit tests for your sorting class.
+
+
+
+
 
 
 
@@ -54,24 +60,17 @@ Below the project requirements:
 ## Checklist
 
 - [x] SOLID Principles
+- [x] MVC Pattern
+- [x] Factory Design Patterns
+- [x] Use of interfaces / abstract classes
+- [x] Use of generics
+- [x] Exception Handling
+- [x] Loggers
+- [x] Use of constants (import static)
 
-		- [x] MVC Pattern
+		- [x] Sorting algorithms
 
-		- [x] Factory Design Pattern
-
-		- [x] Use of interfaces  / abstract classes
-
-		- [x] Use of Generics
-
-		- [x] Exception Handling
-
-  - [x] Loggers
-
-			- [x] Use of Constants (import static)
-
-  - [x] Sorting algorithms
-
-    - [x] Bubble sort
+  - [ ] - [x] Bubble sort
 
     - [x] Quick sort
 
