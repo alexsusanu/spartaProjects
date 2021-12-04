@@ -25,6 +25,8 @@
 
 The purpose of this project is to practice more advanced Java features. The task is to implement different sorting algorithms by using design patterns, SOLID principles, Java conventions and integrate the different Java features from the checklist while building up the project.
 
+A further attempt was made for multi-threading (separate java files for simplicity and not fully grasping the feature).
+
 Below the project requirements: 
 
 
@@ -67,6 +69,7 @@ Below the project requirements:
 - [x] Exception Handling
 - [x] Loggers
 - [x] Use of constants (import static)
+- [x] Multithreading (attempt)
 - [x] Sorting algortihms
   - [x] Bubble sort
   - [x] Quick sort
