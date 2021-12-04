@@ -84,14 +84,14 @@ Below the project requirements:
 
 <details>
   <summary>Click to expand screencasts</summary>
-  <h4>
-    <img src="screencasts/bubbleSort.gif" alt="Bubble sort">Bubble sort
+  <h4>Bubble sort
+    <img src="screencasts/bubbleSort.gif" alt="Bubble sort">
   </h4>
-  <h4>
-    <img src="screencasts/quickSort.gif" alt="Quick sort">Quick sort
+  <h4>Quick sort
+    <img src="screencasts/quickSort.gif" alt="Quick sort">
   </h4>
-  <h4>
-    <img src="screencasts/errorMessages.gif" alt="Error messages">Error messages
+  <h4>Error messages
+    <img src="screencasts/errorMessages.gif" alt="Error messages">
   </h4>
 </details>
 
