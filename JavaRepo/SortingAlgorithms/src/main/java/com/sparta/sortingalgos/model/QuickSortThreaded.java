@@ -1,21 +1,22 @@
-package com.sparta.threadexample;
+package com.sparta.sortingalgos.model;
 
+import com.sparta.sortingalgos.utils.Logging;
 
-import java.util.ArrayList;
+import static com.sparta.sortingalgos.utils.Logging.notImplementedWarning;
+
 import java.util.List;
-import java.util.Random;
+
 
 /**
- * Quick sort algorithm
+ * Quick sort algorithm with multithreading (attempt)
  */
-public class QuickSort<T extends Comparable<T>> implements Runnable{
+public class QuickSortThreaded<T extends Comparable<T>> implements Runnable, ISorting<T> {
     int[] arr = new int[100];
-    int[] sortedArray;
     int begin = 0;
     int end = arr.length - 1;
 
 
-    public QuickSort(int[] arr){
+    public QuickSortThreaded(int[] arr){
         this.arr = arr;
     }
 
@@ -67,10 +68,10 @@ public class QuickSort<T extends Comparable<T>> implements Runnable{
         return i+1;
     }
 
-//    @Override
+    @Override
     public void sortingFn(List<T> arr) {
         //TODO
-//        Logging.logger.fatal(notImplementedWarning);
+        Logging.logger.fatal(notImplementedWarning);
     }
 
     @Override
