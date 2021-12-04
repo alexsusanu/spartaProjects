@@ -1,6 +1,7 @@
 package com.sparta.threadexample;
 
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -11,6 +12,12 @@ public class QuickSort<T extends Comparable<T>> implements ISorting<T>, Runnable
     int[] arr = {21,44,87,87,87,97,88,12,54,87};
     int begin = 0;
     int end = arr.length - 1;
+    private List<Integer> arrayList = new ArrayList<>();
+
+    public List<Integer> getArrayList() {
+        return arrayList;
+    }
+
 
     public void getArr() {
         for(int i = 0; i < arr.length - 1; i++){
@@ -65,10 +72,11 @@ public class QuickSort<T extends Comparable<T>> implements ISorting<T>, Runnable
 
     @Override
     public void run() {
-        System.out.println("Inside quick sort class. running on thread: " + Thread.currentThread().getName());
-        sortingFn(arr);
-        for(int i : arr){
-            System.out.print(i + " ");
+//        System.out.println("Inside quick sort class. running on thread: " + Thread.currentThread().getName());
+        for(int i = 0; i < 10; i++){
+            arrayList.add(i);
+            System.out.println("Inside quick sort class. running on thread: " +
+                                Thread.currentThread().getName() + " added: " + i);
         }
     }
 }
