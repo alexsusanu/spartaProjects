@@ -4,7 +4,7 @@
 
 
 
-![logo](images/logoJ.png)
+<img src="images/logoJ.png" alt="logo" width="700"/>>>
 
 
 
@@ -89,24 +89,16 @@ Below the project requirements:
 
 <details>
   <summary>Click to expand screencasts</summary>
-  <h3>
-    Bubble sort
-  </h3>
+  <h4>
+    <img src="screencasts/bubbleSort.gif" alt="Bubble sort">Bubble sort
+  </h4>
+  <h4>
+    <img src="screencasts/quickSort.gif" alt="Quick sort">Quick sort
+  </h4>
+  <h4>
+    <img src="screencasts/errorMessages.gif" alt="Error messages">Error messages
+  </h4>
 </details>
-
-
-
-
-
-![screenshot](screencasts/bubbleSort.gif)
-
-
-
-![screenshot](screencasts/quickSort.gif)
-
-
-
-![screenshot](screencasts/errorMessages.gif)
 
 
 
