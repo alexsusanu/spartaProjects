@@ -1,14 +1,16 @@
 package com.sparta.threadexample;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
 public class MultiThreadingApp {
     public static void main(String[] args) {
-        List<Integer> arrayList = new ArrayList<>();
-        QuickSort<Integer> quickSort = new QuickSort<>();
+//        int[] sortedArray;
+        int[] array = new int[100];
+        Random random = new Random();
+        for(int i = 0; i < 100; i++){
+            array[i] = random.nextInt(100);
+        }
+        QuickSort<Integer> quickSort = new QuickSort<>(array);
         Thread thread1 = new Thread(quickSort);
         Thread thread2 = new Thread(quickSort);
         Thread thread3 = new Thread(quickSort);
@@ -23,9 +25,16 @@ public class MultiThreadingApp {
         }catch(Exception e){
             e.printStackTrace();
         }
-        arrayList = quickSort.getArrayList();
-        for(int i:arrayList){
-            System.out.print(i + " ");
+
+        try{
+            array = quickSort.getArr();
+            for(int i = 0; i < array.length; i++){
+                System.out.print(array[i] + " ");
+            }
+            System.out.println();
+            System.out.println(array.length);
+        }catch(NullPointerException e){
+            e.printStackTrace();
         }
     }
 

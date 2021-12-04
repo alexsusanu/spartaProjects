@@ -8,26 +8,25 @@ import java.util.Random;
 /**
  * Quick sort algorithm
  */
-public class QuickSort<T extends Comparable<T>> implements ISorting<T>, Runnable{
-    int[] arr = {21,44,87,87,87,97,88,12,54,87};
+public class QuickSort<T extends Comparable<T>> implements Runnable{
+    int[] arr = new int[100];
+    int[] sortedArray;
     int begin = 0;
     int end = arr.length - 1;
-    private List<Integer> arrayList = new ArrayList<>();
 
-    public List<Integer> getArrayList() {
-        return arrayList;
+
+    public QuickSort(int[] arr){
+        this.arr = arr;
     }
 
-
-    public void getArr() {
-        for(int i = 0; i < arr.length - 1; i++){
-            System.out.print(arr[i] + " ");
-        }
+    public int[] getArr() {
+        return arr;
     }
 
     // takes primitive array as parameter
-    @Override
+//    @Override
     public void sortingFn(int[] arr) {
+        System.out.println("arrived in sortingFn " + Thread.currentThread().getName());
         if(arr != null) {
             sortingQ(arr, 0, arr.length - 1);
         }
@@ -35,6 +34,8 @@ public class QuickSort<T extends Comparable<T>> implements ISorting<T>, Runnable
 
     // primitive int array helper method
     public void sortingQ(int[] arr, int begin, int end) {
+        System.out.println("arrived in sortingQ " + Thread.currentThread().getName());
+        System.out.println(Thread.currentThread().getName());
         if (begin < end) {
             int partitionIndex = partition(arr, begin, end);
 
@@ -44,6 +45,8 @@ public class QuickSort<T extends Comparable<T>> implements ISorting<T>, Runnable
     }
     // primitive int array helper method
     private int partition(int arr[], int begin, int end) {
+        System.out.println("arrived in partition " + Thread.currentThread().getName());
+        System.out.println(Thread.currentThread().getName());
         int pivot = arr[end];
         int i = (begin-1);
 
@@ -64,7 +67,7 @@ public class QuickSort<T extends Comparable<T>> implements ISorting<T>, Runnable
         return i+1;
     }
 
-    @Override
+//    @Override
     public void sortingFn(List<T> arr) {
         //TODO
 //        Logging.logger.fatal(notImplementedWarning);
@@ -72,11 +75,6 @@ public class QuickSort<T extends Comparable<T>> implements ISorting<T>, Runnable
 
     @Override
     public void run() {
-//        System.out.println("Inside quick sort class. running on thread: " + Thread.currentThread().getName());
-        for(int i = 0; i < 10; i++){
-            arrayList.add(i);
-            System.out.println("Inside quick sort class. running on thread: " +
-                                Thread.currentThread().getName() + " added: " + i);
-        }
+        sortingFn(arr);
     }
 }
