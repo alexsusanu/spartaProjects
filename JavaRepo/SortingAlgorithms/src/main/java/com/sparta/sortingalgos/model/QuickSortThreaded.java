@@ -1,7 +1,9 @@
 package com.sparta.sortingalgos.model;
 
 import com.sparta.sortingalgos.utils.Logging;
+import com.sparta.sortingalgos.utils.RandomGenerator;
 
+import static com.sparta.sortingalgos.utils.Logging.MAX_ARRAY_SIZE;
 import static com.sparta.sortingalgos.utils.Logging.notImplementedWarning;
 
 import java.util.List;
@@ -11,7 +13,7 @@ import java.util.List;
  * Quick sort algorithm with multithreading (attempt)
  */
 public class QuickSortThreaded<T extends Comparable<T>> implements Runnable, ISorting<T> {
-    int[] arr = new int[100];
+    int[] arr = new int[MAX_ARRAY_SIZE];
     int begin = 0;
     int end = arr.length - 1;
 
@@ -27,7 +29,7 @@ public class QuickSortThreaded<T extends Comparable<T>> implements Runnable, ISo
     // takes primitive array as parameter
 //    @Override
     public void sortingFn(int[] arr) {
-        System.out.println("arrived in sortingFn " + Thread.currentThread().getName());
+//        System.out.println("arrived in sortingFn " + Thread.currentThread().getName());
         if(arr != null) {
             sortingQ(arr, 0, arr.length - 1);
         }
@@ -35,8 +37,8 @@ public class QuickSortThreaded<T extends Comparable<T>> implements Runnable, ISo
 
     // primitive int array helper method
     public void sortingQ(int[] arr, int begin, int end) {
-        System.out.println("arrived in sortingQ " + Thread.currentThread().getName());
-        System.out.println(Thread.currentThread().getName());
+//        System.out.println("arrived in sortingQ " + Thread.currentThread().getName());
+//        System.out.println(Thread.currentThread().getName());
         if (begin < end) {
             int partitionIndex = partition(arr, begin, end);
 
@@ -46,8 +48,7 @@ public class QuickSortThreaded<T extends Comparable<T>> implements Runnable, ISo
     }
     // primitive int array helper method
     private int partition(int arr[], int begin, int end) {
-        System.out.println("arrived in partition " + Thread.currentThread().getName());
-        System.out.println(Thread.currentThread().getName());
+//        System.out.println("arrived in partition " + Thread.currentThread().getName());
         int pivot = arr[end];
         int i = (begin-1);
 

@@ -3,13 +3,14 @@ package com.sparta.sortingalgos.utils;
 import java.util.List;
 import java.util.Random;
 
+import static com.sparta.sortingalgos.utils.Logging.MAX_ARRAY_SIZE;
+
 /**
  * Random number generator for array
  * Default max array size 5000
  */
 public class RandomGenerator {
     private Random random = new Random();
-    private final int MAX_ARRAY_SIZE = 5; // max size for arrays
     private int[] myArray = new int[MAX_ARRAY_SIZE];
 //    private List<Integer> myArrayList;
 
@@ -28,7 +29,6 @@ public class RandomGenerator {
     /**
      * Generate random numbers, take seed as Integer
      * @param seed -> generate random between 0..seed (excluded)
-     * @return List of Integers
      */
     public void generateListArray(List<Integer> myArrayList, int seed){
         for(int i = 0; i < MAX_ARRAY_SIZE; i++){

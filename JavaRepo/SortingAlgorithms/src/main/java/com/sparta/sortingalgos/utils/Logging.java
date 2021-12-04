@@ -15,6 +15,7 @@ public class Logging {
     /**
      * Default messages for errors or algorithm choice
      */
+    public static final int MAX_ARRAY_SIZE = 5000; // max size for arrays
     public static final String notImplementedWarning = "NOT IMPLEMENTED";
     public static final String unknownOption = "Unknown option. Choice: bubble or quick (q to exit) > ";
     public static final String invalidInput = "Invalid input";

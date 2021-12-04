@@ -55,7 +55,7 @@ public class SortingController {
             case Quick:
                 try{
                     /*
-                     * Display and run bubble algo for primitive array
+                     * Display and run quick algo for primitive array
                      */
                     System.out.println();
                     System.out.println(sortingView.display(primitiveArray, BeforeAfter.Before));
@@ -68,7 +68,7 @@ public class SortingController {
                     System.out.println();
 
                     /*
-                     * Display and run bubble algo for array list
+                     * Display and run quick algo for array list
                      */
                     System.out.println(sortingView.display(arrayList, BeforeAfter.Before));
                     helper(arrayList, sortingView, SortingType.Quick, timing);
@@ -164,4 +164,24 @@ public class SortingController {
         sortingView.displayTime(timing.timeResult(start, end));
         System.out.println();
     }
+
+//    /**
+//     * QUICK SORT MULTITHREADED ATTEMPT
+//     */
+//    private static void helperThread(int[] primitiveArray, SortingView sortingView, SortingType sortingType, Timing timing){
+//        try {
+//            start = timing.getStartTime();
+////            SortingFactory.getSorting(sortingType).sortingFn(primitiveArray);
+//            MultithreadHelper.startThread();
+//            end = timing.getEndTime();
+//
+////        System.out.println();
+//            System.out.println(sortingView.display(primitiveArray, BeforeAfter.After));
+//            System.out.print("Total time taken with MULTI-THREAD: ");
+//            sortingView.displayTime(timing.timeResult(start, end));
+//            System.out.println();
+//        }catch(NullPointerException e){
+//            e.printStackTrace();
+//        }
+//    }
 }
