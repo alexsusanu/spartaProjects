@@ -4,7 +4,7 @@
 
 
 
-![logo](images/logoJ.png)
+![logo](src/main/resources/images/logoJ.png)
 
 
 
@@ -85,13 +85,13 @@ Below the project requirements:
 <details>
   <summary>Click to expand screencasts</summary>
   <h4>Bubble sort
-    <img src="screencasts/bubbleSort.gif" alt="Bubble sort">
+    <img src="src/main/resources/screencasts/bubbleSort.gif" alt="Bubble sort">
   </h4>
   <h4>Quick sort
-    <img src="screencasts/quickSort.gif" alt="Quick sort">
+    <img src="src/main/resources/screencasts/quickSort.gif" alt="Quick sort">
   </h4>
   <h4>Error messages
-    <img src="screencasts/errorMessages.gif" alt="Error messages">
+    <img src="src/main/resources/screencasts/errorMessages.gif" alt="Error messages">
   </h4>
 </details>
 
@@ -103,9 +103,6 @@ Below the project requirements:
 .
 ├── README.md
 ├── SortingAlgorithms.iml
-├── images
-│   ├── eng100-@sparta.svg
-│   └── made-with-java.svg
 ├── logs
 │   └── mylogfile.log
 ├── pom.xml
@@ -134,7 +131,18 @@ Below the project requirements:
 │   │   │               └── view
 │   │   │                   └── SortingView.java
 │   │   └── resources
-│   │       └── log4j2.properties
+│   │       ├── images
+│   │       │   ├── eng100-@sparta.svg
+│   │       │   ├── logoJ.png
+│   │       │   └── made-with-java.svg
+│   │       ├── log4j2.properties
+│   │       └── screencasts
+│   │           ├── bubbleSort.gif
+│   │           ├── bubbleSort.mov
+│   │           ├── errorMessages.gif
+│   │           ├── errorMessages.mov
+│   │           ├── quickSort.gif
+│   │           └── quickSort.mov
 │   └── test
 │       └── java
 │           └── com
@@ -183,7 +191,7 @@ Below the project requirements:
 
 ## Credits
 
-![Eng100](images/eng100-@sparta.svg)
+![Eng100](src/main/resources/images/eng100-@sparta.svg)
 
 ## License
 
