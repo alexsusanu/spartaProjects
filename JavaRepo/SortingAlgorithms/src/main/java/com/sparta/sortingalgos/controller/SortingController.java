@@ -98,7 +98,6 @@ public class SortingController {
             SortingFactory.getSorting(sortingType).sortingFn(primitiveArray);
             end = timing.getEndTime();
 
-//        System.out.println();
             System.out.println(sortingView.display(primitiveArray, BeforeAfter.After));
             System.out.print("Total time taken using primitive array: ");
             sortingView.displayTime(timing.timeResult(start, end));
