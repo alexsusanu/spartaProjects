@@ -4,7 +4,7 @@
 
 
 
-<img src="images/logoJ.png" alt="logo" width="700"  style="text-align:center"/>
+![logo](images/logoJ.png)
 
 
 
