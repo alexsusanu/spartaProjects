@@ -4,7 +4,7 @@
 
 
 
-![logo](src/main/resources/images/made-with-java.svg)
+<img src="src/main/resources/images/made-with-java.svg" alt="logo" align="center">
 
 
 
