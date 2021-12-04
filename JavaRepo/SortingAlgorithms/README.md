@@ -121,11 +121,13 @@ Below the project requirements:
 │   │   │               │   ├── BubbleSort.java
 │   │   │               │   ├── ISorting.java
 │   │   │               │   ├── QuickSort.java
+│   │   │               │   ├── QuickSortThreaded.java
 │   │   │               │   ├── SortingFactory.java
 │   │   │               │   └── TreeSort.java
 │   │   │               ├── utils
 │   │   │               │   ├── BeforeAfter.java
 │   │   │               │   ├── Logging.java
+│   │   │               │   ├── MultithreadHelper.java
 │   │   │               │   ├── RandomGenerator.java
 │   │   │               │   ├── SortingType.java
 │   │   │               │   └── Timing.java
@@ -164,18 +166,31 @@ Below the project requirements:
     │   │           │   ├── BubbleSort.class
     │   │           │   ├── ISorting.class
     │   │           │   ├── QuickSort.class
+    │   │           │   ├── QuickSortThreaded.class
     │   │           │   ├── SortingFactory$1.class
     │   │           │   ├── SortingFactory.class
     │   │           │   └── TreeSort.class
     │   │           ├── utils
     │   │           │   ├── BeforeAfter.class
     │   │           │   ├── Logging.class
+    │   │           │   ├── MultithreadHelper.class
     │   │           │   ├── RandomGenerator.class
     │   │           │   ├── SortingType.class
     │   │           │   └── Timing.class
     │   │           └── view
     │   │               └── SortingView.class
-    │   └── log4j2.properties
+    │   ├── images
+    │   │   ├── eng100-@sparta.svg
+    │   │   ├── logoJ.png
+    │   │   └── made-with-java.svg
+    │   ├── log4j2.properties
+    │   └── screencasts
+    │       ├── bubbleSort.gif
+    │       ├── bubbleSort.mov
+    │       ├── errorMessages.gif
+    │       ├── errorMessages.mov
+    │       ├── quickSort.gif
+    │       └── quickSort.mov
     ├── generated-sources
     │   └── annotations
     ├── generated-test-sources
