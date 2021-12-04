@@ -67,16 +67,10 @@ Below the project requirements:
 - [x] Exception Handling
 - [x] Loggers
 - [x] Use of constants (import static)
-
-		- [x] Sorting algorithms
-
-  - [ ] - [x] Bubble sort
-
-    - [x] Quick sort
-
-    - [ ] Binary Tree Sort feat nested classes
-
-      
+- [x] Sorting algortihms
+  - [x] Bubble sort
+  - [x] Quick sort
+  - [ ] Binary Tree sort feat nested classes
 
 ---
 
