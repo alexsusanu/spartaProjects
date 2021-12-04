@@ -4,7 +4,7 @@
 
 
 
-![logo](src/main/resources/images/logoJ.png)
+![logo](src/main/resources/images/made-with-java.svg)
 
 
 
