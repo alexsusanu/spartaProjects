@@ -8,7 +8,9 @@
 
 
 
-<h1 align="center">Sorting algorithms @ Sparta</h1>
+<h1 align="center"><span style="color:purple">Sorting algorithms</span> <span style="color:red">@</span><span style="color:blue"> Sparta</span></h1>
+
+
 
 <p align="center">
   <a href="#description">Description and requirements</a> •
