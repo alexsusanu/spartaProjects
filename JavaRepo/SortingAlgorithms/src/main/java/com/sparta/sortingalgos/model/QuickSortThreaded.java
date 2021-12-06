@@ -13,9 +13,6 @@ import java.util.List;
  */
 public class QuickSortThreaded<T extends Comparable<T>> implements Runnable, ISorting<T> {
     int[] arr = new int[MAX_ARRAY_SIZE];
-    int begin = 0;
-    int end = arr.length - 1;
-
 
     public QuickSortThreaded(int[] arr){
         this.arr = arr;
@@ -26,7 +23,7 @@ public class QuickSortThreaded<T extends Comparable<T>> implements Runnable, ISo
     }
 
     // takes primitive array as parameter
-//    @Override
+    @Override
     public void sortingFn(int[] arr) {
 //        System.out.println("arrived in sortingFn " + Thread.currentThread().getName());
         if(arr != null) {

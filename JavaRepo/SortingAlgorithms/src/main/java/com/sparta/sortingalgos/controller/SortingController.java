@@ -174,9 +174,9 @@ public class SortingController {
         System.out.println();
     }
 
-//    /**
-//     * QUICK SORT MULTITHREADED ATTEMPT
-//     */
+    /**
+     * QUICK SORT MULTITHREADED ATTEMPT
+     */
     private static void helperThread(int[] primitiveArray, SortingView sortingView, Timing timing){
         try {
             start = timing.getStartTime();
