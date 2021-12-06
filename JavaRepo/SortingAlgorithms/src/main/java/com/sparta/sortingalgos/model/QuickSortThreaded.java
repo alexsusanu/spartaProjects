@@ -1,7 +1,6 @@
 package com.sparta.sortingalgos.model;
 
 import com.sparta.sortingalgos.utils.Logging;
-import com.sparta.sortingalgos.utils.RandomGenerator;
 
 import static com.sparta.sortingalgos.utils.Logging.MAX_ARRAY_SIZE;
 import static com.sparta.sortingalgos.utils.Logging.notImplementedWarning;

@@ -7,8 +7,8 @@ import java.util.Random;
 import static com.sparta.sortingalgos.utils.Logging.MAX_ARRAY_SIZE;
 
 public class MultithreadHelper {
-    public static void startThread(){
-        int[] array = new int[MAX_ARRAY_SIZE];
+    public static void startThread(int[] array){
+//        int[] array = new int[MAX_ARRAY_SIZE];
 //        Random random = new Random();
 //            for(int i = 0; i < 100; i++){
 //            array[i] = random.nextInt(100);

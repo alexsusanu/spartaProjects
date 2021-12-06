@@ -8,7 +8,6 @@ import java.util.*;
 
 import static com.sparta.sortingalgos.utils.Logging.invalidInput;
 
-//TODO to add comparable helper method
 /**
  * Controller -> consists of the sorting choice algorithm
  *               which calls the SortingFactory
@@ -70,6 +69,12 @@ public class SortingController {
                      * Display and run primitive array with Arrays.sort builtin
                      */
                     arraysSortHelper(primitiveArray, sortingView, timing);
+                    System.out.println();
+
+                    /*
+                     * Display and run primitive array MULTI-THREADED
+                     */
+                    helperThread(primitiveArray, sortingView, timing);
                     System.out.println();
 
                     /*
@@ -172,20 +177,18 @@ public class SortingController {
 //    /**
 //     * QUICK SORT MULTITHREADED ATTEMPT
 //     */
-//    private static void helperThread(int[] primitiveArray, SortingView sortingView, SortingType sortingType, Timing timing){
-//        try {
-//            start = timing.getStartTime();
-////            SortingFactory.getSorting(sortingType).sortingFn(primitiveArray);
-//            MultithreadHelper.startThread();
-//            end = timing.getEndTime();
-//
-////        System.out.println();
-//            System.out.println(sortingView.display(primitiveArray, BeforeAfter.After));
-//            System.out.print("Total time taken with MULTI-THREAD: ");
-//            sortingView.displayTime(timing.timeResult(start, end));
-//            System.out.println();
-//        }catch(NullPointerException e){
-//            e.printStackTrace();
-//        }
-//    }
+    private static void helperThread(int[] primitiveArray, SortingView sortingView, Timing timing){
+        try {
+            start = timing.getStartTime();
+            MultithreadHelper.startThread(primitiveArray);
+            end = timing.getEndTime();
+
+            System.out.println(sortingView.display(primitiveArray, BeforeAfter.After));
+            System.out.print("Total time taken with MULTI-THREAD: ");
+            sortingView.displayTime(timing.timeResult(start, end));
+            System.out.println();
+        }catch(NullPointerException e){
+            e.printStackTrace();
+        }
+    }
 }
