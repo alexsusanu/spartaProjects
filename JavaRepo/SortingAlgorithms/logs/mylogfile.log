@@ -90,3 +90,5 @@
 [FATAL] 2021-12-04 16:22:09,352 main Logging - NOT IMPLEMENTED
 [WARN] 2021-12-04 16:29:36,417 main Logging - Unknown option. Choice: bubble or quick (q to exit) > 
 [FATAL] 2021-12-06 06:07:10,796 main Logging - NOT IMPLEMENTED
+[WARN] 2021-12-06 06:25:33,029 main Logging - Unknown option. Choice: bubble or quick (q to exit) > 
+[FATAL] 2021-12-06 06:25:34,885 main Logging - NOT IMPLEMENTED
