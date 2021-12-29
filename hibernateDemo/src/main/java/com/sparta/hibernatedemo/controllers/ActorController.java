@@ -1,13 +1,17 @@
 package com.sparta.hibernatedemo.controllers;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sparta.hibernatedemo.entities.Actor;
 import com.sparta.hibernatedemo.repositories.ActorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @RestController
@@ -15,6 +19,8 @@ public class ActorController {
 
     @Autowired
     private ActorRepository theRepository;
+    @Autowired
+    private ObjectMapper objectMapper;
 
     @GetMapping(value= "/sakila/actors")
     public List<Actor> getActors(){
@@ -22,12 +28,19 @@ public class ActorController {
     }
 
     @GetMapping(value = "/sakila/actor")
-    public Actor getActor(@RequestParam Integer id){
+    public ResponseEntity<String> getActor(@RequestParam Integer id) {
         Optional<Actor> result = theRepository.findById(id);
-        if(result.isPresent())
-            return result.get();
-        else
-            return null;
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("content-type", "application/json; charset=utf-8");
+        if (result.isPresent()) {
+            try {
+                ResponseEntity<String> resp = new ResponseEntity<String>(objectMapper.writeValueAsString(result.get()), headers, HttpStatus.OK);
+                return resp;
+            } catch (JsonProcessingException e) {
+                e.printStackTrace();
+            }
+        }
+        return new ResponseEntity<String>("{\"message\": \"That actor doesnt exist\"}", headers,HttpStatus.OK);
     }
 
     @PutMapping(value="/sakila/actor/update")

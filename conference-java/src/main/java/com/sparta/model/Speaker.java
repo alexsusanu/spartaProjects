@@ -1,5 +1,7 @@
 package com.sparta.model;
 
+import org.springframework.stereotype.Component;
+
 public class Speaker {
     private String firstName;
     private String lastName;
